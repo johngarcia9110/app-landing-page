@@ -1,3 +1,11 @@
+.navbar-brand {
+  height: auto;
+}
+
+.navbar-brand .logo {
+  max-width: 125px;
+}
+
 .icon-bar {
   background: white;
   box-shadow: 0 0 6px black;
@@ -24,6 +32,11 @@
   background: rgba(44, 78, 105, 0.9);
   border-radius: 6px;
   text-align: center;
+  padding: 10px;
+}
+
+.jumbotron .mail-sign-up form {
+  text-align: left;
 }
 
 .jumbotron .download-links {
