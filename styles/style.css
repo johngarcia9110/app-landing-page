@@ -7,4 +7,53 @@
   min-height: 700px;
   background-image: url("../images/backdrop.jpg");
   background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+}
+
+.jumbotron .phone-image {
+  position: absolute;
+}
+
+.jumbotron .container {
+  padding-top: 45px;
+}
+
+.jumbotron .mail-sign-up {
+  background: rgba(44, 78, 105, 0.9);
+  border-radius: 6px;
+  text-align: center;
+}
+
+.jumbotron .download-links {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 0;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.jumbotron .download-links a {
+  display: inline-block;
+}
+
+.jumbotron .download-links .left-app-link {
+  float: right;
+}
+
+.jumbotron .download-links .right-app-link {
+  float: left;
+}
+
+.jumbotron .download-links .right-app-link img {
+  padding: 10px;
+}
+
+.jumbotron .download-links img {
+  max-width: 135px;
+  margin: 0;
+  padding: 0;
 }
