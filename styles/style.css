@@ -85,15 +85,12 @@ body {
   display: inline-block;
 }
 
-.jumbotron .download-links .left-app-link {
-  float: right;
+.jumbotron .download-links .app-link {
+  display: inline-block;
+  text-align: center;
 }
 
-.jumbotron .download-links .right-app-link {
-  float: left;
-}
-
-.jumbotron .download-links .right-app-link img {
+.jumbotron .download-links .app-link img {
   padding: 10px;
 }
 
@@ -123,4 +120,10 @@ body {
 
 .large-icon {
   font-size: 30px;
+}
+
+@media only screen and (max-width: 420px) {
+  .jumbotron .phone-image {
+    max-width: 500px;
+  }
 }

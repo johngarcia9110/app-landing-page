@@ -57,10 +57,9 @@ body
       text-shadow: 1px 1px black
     a
       display: inline-block
-    .left-app-link
-      float: right
-    .right-app-link
-      float: left
+    .app-link
+      display: inline-block
+      text-align: center
       img
         padding: 10px
     img
@@ -81,3 +80,9 @@ body
   text-align: left
 .large-icon
   font-size: 30px
+
+
+@media only screen and (max-width : 420px)
+  .jumbotron
+    .phone-image
+      max-width: 500px
