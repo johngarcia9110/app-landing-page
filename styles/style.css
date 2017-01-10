@@ -1,6 +1,6 @@
 body {
   background: rgba(44, 78, 105, 0.9);
-  color: white;
+  color: #041646;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -45,6 +45,18 @@ body {
   overflow: hidden;
   position: relative;
   color: #fff;
+  margin-bottom: 0px;
+}
+
+.jumbotron .mobile-heading {
+  display: block;
+  text-align: left;
+  color: #FFF;
+  text-shadow: 2px 2px 30px black;
+}
+
+.jumbotron .mobile-heading h1 {
+  font-size: 40px;
 }
 
 .jumbotron .phone-image {
@@ -100,10 +112,27 @@ body {
   padding: 0;
 }
 
+.info-section {
+  background: #fff;
+}
+
+.info-section .section-title h3 {
+  background: #405f77;
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.info-section .assist-box-wrapper {
+  background: #e4eff7;
+  padding: 20px;
+  min-height: 255px;
+}
+
 .about-section {
   background: #fff;
   color: #041646;
-  padding: 40px 20px;
+  padding: 20px 40px;
   margin-bottom: 30px;
 }
 
@@ -125,8 +154,6 @@ body {
 @media only screen and (max-width: 420px) {
   .jumbotron .mobile-heading {
     text-align: center;
-    color: #FFF;
-    text-shadow: 2px 2px 30px black;
   }
   .jumbotron .phone-image {
     max-width: 500px;
