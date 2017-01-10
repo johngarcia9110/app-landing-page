@@ -159,7 +159,7 @@ body {
     max-width: 500px;
   }
   .navbar-header {
-    background: #405f77;
+    background: rgba(0, 0, 0, 0.67);
   }
   .navbar-header .logo {
     max-width: 65px;
