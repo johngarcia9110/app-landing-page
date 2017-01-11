@@ -113,7 +113,7 @@ body {
 }
 
 .info-section {
-  background: #fff;
+  background: #dde7ef;
 }
 
 .info-section .section-title h3 {
@@ -124,13 +124,12 @@ body {
 }
 
 .info-section .assist-box-wrapper {
-  background: #e4eff7;
+  background: #f7f7f7;
   padding: 20px;
   min-height: 255px;
 }
 
 .about-section {
-  background: #fff;
   color: #041646;
   padding: 20px 40px;
   margin-bottom: 30px;
