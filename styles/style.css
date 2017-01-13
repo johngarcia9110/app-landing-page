@@ -29,6 +29,14 @@ body {
   background-color: none;
 }
 
+.navbar-right a:active {
+  background-color: none;
+}
+
+.navbar-right a:focus {
+  background-color: none;
+}
+
 .nav li a:hover {
   background-color: transparent;
 }
