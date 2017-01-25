@@ -26,6 +26,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- TODO: icons bigger, pdf linked, apple link, BETA/Pre-release -->
+
     <!-- Analytics -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -43,7 +45,7 @@
 
 <body>
 
-    <nav class="navbar navbar-fixed-top">
+    <nav class="navbar navbar-fixed-top hidden">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -72,7 +74,7 @@
                 <div class="col-md-8">
                   <div class="mobile-heading">
                     <h1>Adam D Technology App</h1>
-                    <p>The easiest way to get tech support.</p>
+                    <p>Easiest Way to Get IT Service – PERIOD!</p>
                   </div>
                     <img class="phone-image" src="images/App-example.png" alt="Adam D Technology App on iphone and android">
                 </div>
@@ -84,8 +86,8 @@
                     <input name="inf_form_name" type="hidden" value="Submit email to mailing list" />
                     <input name="infusionsoft_version" type="hidden" value="1.60.0.55" />
                     <div class="infusion-field form-group">
-                        <label for="inf_field_FirstName">First Name: *</label>
-                        <input class="infusion-field-input-container form-control" id="inf_field_FirstName" name="inf_field_FirstName" type="text" placeholder="John" />
+                        <label for="inf_field_FirstName">Full Name: *</label>
+                        <input class="infusion-field-input-container form-control" id="inf_field_FirstName" name="inf_field_FirstName" type="text" placeholder="John Doe" />
                     </div>
                     <div class="infusion-field form-group">
                         <label for="inf_field_Email">Email: *</label>
@@ -106,8 +108,8 @@
           </div>
           <div class="col-md-12">
             <div class="app-link-wrapper">
-              <a class="app-link" href="https://play.google.com/store/apps/details?id=com.adam.tech"><img src="images/android-appstore.png" alt="Download On Android"></a>
-              <a class="app-link inactive-app-link" data-toggle="tooltip" title="Coming Soon" data-placement="top" ><img src="images/ios-appstore.svg" alt="Download On IOS"><span class='tooltip'>Coming Soon</span></a>
+              <a class="app-link" href="https://play.google.com/store/apps/details?id=com.adam.tech" target="_blank"><img src="images/android-appstore.png" alt="Download On Android"></a>
+              <a class="app-link inactive-app-link" href="https://itunes.apple.com/us/app/adam-d-technology/id1196366223?ls=1&mt=8" target="_blank"><img src="images/ios-appstore.svg" alt="Download On IOS"><span class='tooltip'>Coming Soon</span></a>
             </div>
           </div>
         </div>
@@ -117,10 +119,14 @@
     <div class="container info-section">
       <div class="row">
         <div class="col-sm-12 about-section">
-          <h2>Getting IT Support Has Never Been Easier!</h2>
-          <p>Get the technology help you need without ever having to make a phone call. With the new Adam D Technology app, simply fill out our short support request form and our staff will automatically be notified of your issue. You can also send us a picture, video or audio recording of the issue you're experiencing. No more trying to describe the strange issues you are experiencing.</p>
+          <h2>Easiest Way to Get IT Service – PERIOD!</h2>
+          <p>Have you ever murmured these words to your computer person; “darn it, I wish you could hear what my computer sounds like”, “ugghhh, I wish my problem would happen while you’re here” or “I wish you could see what I see right now”. </p>
+          <p>Well, all of your frustrations have been solved by your smart and loving IT Company, Adam D Technology.  We have recently developed a mobile device application that is Apple and Android friendly.  It allows you to “let us hear that noise” that your computer is making as if we were there, it “lets us see video of your issue” as if we were there and “let us see pictures of your blue screen” as if we were right there next to you.</p>
+          <p>Above are two links, one for Android download and one for Apple download.  Below we have a tutorial of how the mobile device application works and bug reporting so you may help us, help you and make this app even better.</p>
+          <p>Give it a try, it’s FOREVER FREE to download and use!  What do you have to lose; frustration? stress? All the above I say…</p>
+          <p>Live Long and Prosper</p>
         </div>
-        <div class="col-sm-12 text-center section-title">
+        <div class="col-sm-12 text-center section-title  hidden">
           <h3>Need Assistance?</h3>
         </div>
         <div class="col-sm-6 text-center">
@@ -128,7 +134,7 @@
             <i class="fa fa-question large-icon"></i>
             <h2>Tutorial</h2>
             <p>Need help installing or using the app?</p>
-            <p><a class="btn btn-success" href="https://my.visme.co/projects/76oy6rvx-test" role="button" target="_blank">View Tutorial &raquo;</a></p>
+            <p><a class="btn btn-success" href="AdamD-App-Tutorial-v1.pdf" role="button" target="_blank">View Tutorial &raquo;</a></p>
           </div>
         </div>
         <div class="col-sm-6 text-center">
@@ -177,7 +183,10 @@
             </div><!-- /.modal-content -->
           </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
-        <p>&copy; 2017 Adam D Technology, LLC.</p>
+        <div class='badge-section'>
+          <img src="images/Beta-badge.png" alt="Beta Release Badge">
+        </div>
+        <p class="pull-right"><a href="https://adamdtechnology.com/" >&copy; 2017 Adam D Technology, LLC.</a></p>
       </footer>
     </div>
         <!-- /container -->

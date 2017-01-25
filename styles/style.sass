@@ -2,6 +2,9 @@ body
   background: rgba(44,78,105,0.9)
   color: #041646
   font-family: 'Roboto', sans-serif
+  
+.hidden
+  display: none
 
 .navbar-fixed-top
   position: absolute
@@ -35,6 +38,7 @@ body
   background-image: url('../images/backdrop.jpg')
   background-size: cover
   overflow: hidden
+  padding-top: 0px
   position: relative
   color: #fff
   margin-bottom: 0px
@@ -73,11 +77,11 @@ body
       display: inline-block
       text-align: center
       img
+        max-width: 180px
         padding: 10px
     .inactive-app-link
 
     img
-      max-width: 165px
       margin: 0
       padding: 0
 .info-section
@@ -96,6 +100,8 @@ body
   color: #041646
   padding: 20px 40px
   margin-bottom: 30px
+  p 
+    font-size: 1.2em
 .modal-header
   color: #041646
   font-weight: bold
@@ -105,6 +111,14 @@ body
   text-align: left
 .large-icon
   font-size: 30px
+
+
+.badge-section
+  position: fixed
+  bottom: 10px
+  left: 10px
+  img
+    max-width: 150px
 
 
 @media only screen and (max-width : 420px)
@@ -123,3 +137,9 @@ body
       a
         color: white
         text-align: right
+  .badge-section
+    position: fixed
+    bottom: 10px
+    left: 10px
+    img
+      max-width: 90px

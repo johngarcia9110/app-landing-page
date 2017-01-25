@@ -4,6 +4,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.hidden {
+  display: none;
+}
+
 .navbar-fixed-top {
   position: absolute;
 }
@@ -51,6 +55,7 @@ body {
   background-image: url("../images/backdrop.jpg");
   background-size: cover;
   overflow: hidden;
+  padding-top: 0px;
   position: relative;
   color: #fff;
   margin-bottom: 0px;
@@ -111,11 +116,11 @@ body {
 }
 
 .jumbotron .download-links .app-link img {
+  max-width: 180px;
   padding: 10px;
 }
 
 .jumbotron .download-links img {
-  max-width: 165px;
   margin: 0;
   padding: 0;
 }
@@ -143,6 +148,10 @@ body {
   margin-bottom: 30px;
 }
 
+.about-section p {
+  font-size: 1.2em;
+}
+
 .modal-header {
   color: #041646;
   font-weight: bold;
@@ -156,6 +165,16 @@ body {
 
 .large-icon {
   font-size: 30px;
+}
+
+.badge-section {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+.badge-section img {
+  max-width: 150px;
 }
 
 @media only screen and (max-width: 420px) {
@@ -177,5 +196,13 @@ body {
   #navbar li a {
     color: white;
     text-align: right;
+  }
+  .badge-section {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+  }
+  .badge-section img {
+    max-width: 90px;
   }
 }
