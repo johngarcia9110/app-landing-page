@@ -81,7 +81,7 @@
                 <div class="col-md-4 mail-sign-up visible-md-block visible-lg-block">
                   <h2>Join Our Mailing List</h1>
                   <p>Keep Up with the latest news from Adam D Technology. Enter your email below:</p>
-                  <form accept-charset="UTF-8" action="https://lj322.infusionsoft.com/app/form/process/03c6953d591b664d8da9f7481ea53459" class="infusion-form" method="POST">
+                  <form id="email-form" accept-charset="UTF-8" action="https://lj322.infusionsoft.com/app/form/process/03c6953d591b664d8da9f7481ea53459" class="infusion-form" method="POST">
                     <input name="inf_form_xid" type="hidden" value="03c6953d591b664d8da9f7481ea53459" />
                     <input name="inf_form_name" type="hidden" value="Submit email to mailing list" />
                     <input name="infusionsoft_version" type="hidden" value="1.60.0.55" />
@@ -94,7 +94,8 @@
                         <input class="infusion-field-input-container form-control" id="inf_field_Email" name="inf_field_Email" type="email" placeholder="example@email.com"/>
                     </div>
                     <div class="infusion-submit">
-                        <input class="btn btn-success" type="submit" value="Submit" />
+                        <p id="email-form-alert">Please fill out the required '*' fields</p>
+                        <input id="email-submit-button" class="btn btn-success" type="submit" value="Submit" />
                     </div>
                   </form>
                   <script type="text/javascript" src="https://lj322.infusionsoft.com/app/webTracking/getTrackingCode"></script>
@@ -157,25 +158,26 @@
                 <h4 class="modal-title">Bug Submission Form</h4>
               </div>
               <div class="modal-body">
-                <form accept-charset="UTF-8" action="https://lj322.infusionsoft.com/app/form/process/156f09c9c9f6f40b9eaaa5f17dfc4680" class="infusion-form" method="POST">
+                <form id="bug-form" accept-charset="UTF-8" action="https://lj322.infusionsoft.com/app/form/process/156f09c9c9f6f40b9eaaa5f17dfc4680" class="infusion-form" method="POST">
                   <input name="inf_form_xid" type="hidden" value="156f09c9c9f6f40b9eaaa5f17dfc4680" />
                   <input name="inf_form_name" type="hidden" value="Bug Submission Form" />
                   <input name="infusionsoft_version" type="hidden" value="1.60.0.57" />
                   <div class="infusion-field form-group">
                       <label for="inf_field_FirstName">Name: *</label>
-                      <input class="infusion-field-input-container form-control" id="inf_field_FirstName" name="inf_field_FirstName" type="text" />
+                      <input class="infusion-field-input-container form-control" id="inf_field_FirstName2" name="inf_field_FirstName" type="text" />
                   </div>
                   <div class="infusion-field form-group">
                       <label for="inf_field_Email">Your Email: *</label>
-                      <input class="infusion-field-input-container form-control" id="inf_field_Email" name="inf_field_Email" type="text" />
+                      <input class="infusion-field-input-container form-control" id="inf_field_Email2" name="inf_field_Email" type="text" />
                   </div>
                   <div class="infusion-field form-group">
                       <label for="inf_custom_Comment">Please describe the issue in as much detail as possible: *</label>
                       <textarea class="form-control" cols="24" id="inf_custom_Comment" name="inf_custom_Comment" rows="5"></textarea>
+                      <p id="bug-form-alert">Please fill out the required '*' fields</p>
                   </div>
                   <div class="infusion-submit modal-footer">
                       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                      <input type="submit" class="btn btn-primary" value="Submit" />
+                      <input id="bug-form-submit-button" type="submit" class="btn btn-primary" value="Submit" />
                   </div>
                 </form>
                 <script type="text/javascript" src="https://lj322.infusionsoft.com/app/webTracking/getTrackingCode"></script>
